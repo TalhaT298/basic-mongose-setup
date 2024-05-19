@@ -36,7 +36,7 @@ const getSingleStudent = async (req: Request, res: Response) => {
   
       res.status(200).json({
         success: true,
-        message: 'Students are retrieved succesfully',
+        message: 'Single Students are retrieved succesfully',
         data: result,
       });
     } catch (err) {
